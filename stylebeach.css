@@ -1,0 +1,38 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+@media (min-width: 560px) {
+  body {
+    display: block;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    height: 100%;
+  }
+  header {
+    position: absolute;
+  }
+  .top {
+    position: relative;
+    height: 300px;
+    overflow: hidden;
+    background: url(161823_120511124824189-768x431.jpg) no-repeat center;
+  }
+  .name {
+    position: absolute;
+    width: 117px;
+    height: 25px;
+    left: 149px;
+    top: 13px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    text-align: center;
+    color: #ffffff;
+  }
+  .nav {
+    position: absolute;
+    list-style-type: none;
+    font-size: 15px;
+    color: #ffffff;
+  }
+}
