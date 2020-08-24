@@ -2,37 +2,97 @@
   margin: 0;
   padding: 0;
 }
-@media (min-width: 560px) {
-  body {
-    display: block;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    height: 100%;
-  }
-  header {
-    position: absolute;
-  }
-  .top {
-    position: relative;
-    height: 300px;
-    overflow: hidden;
-    background: url(161823_120511124824189-768x431.jpg) no-repeat center;
-  }
-  .name {
-    position: absolute;
-    width: 117px;
-    height: 25px;
-    left: 149px;
-    top: 13px;
-    font-weight: bold;
-    font-size: 18px;
-    line-height: 25px;
-    text-align: center;
-    color: #ffffff;
-  }
-  .nav {
-    position: absolute;
-    list-style-type: none;
-    font-size: 15px;
-    color: #ffffff;
-  }
+body {
+  display: block;
+  font-family: "Nunito", sans-serif;
+  height: 100%;
+}
+.top {
+  position: relative;
+  height: 300px;
+  overflow: hidden;
+  background-size: cover;
+  background: url(bungalow.jpg) no-repeat center;
+  text-align: center;
+}
+.top-content {
+  padding: 1em;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+header {
+  display: block;
+}
+h3 {
+  font-weight: bold;
+}
+a {
+  color: white;
+  text-decoration: none;
+  padding: 0.6em;
+}
+ul {
+  display: flex;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.title-button {
+  margin-top: 4em;
+  color: white;
+}
+span {
+  font-weight: bold;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  margin: auto 7em;
+}
+button {
+  padding: 0.6em 1.5em;
+  font-size: 0.9em;
+  border-radius: 15%;
+  border: none;
+  background-color: rgba(33, 67, 76, 0.45);
+  color: white;
+  cursor: pointer;
+  text-align: center;
+}
+button:hover {
+  background-color: #59c3c8;
+}
+.name {
+  color: white;
+}
+.nav {
+  position: absolute;
+  list-style-type: none;
+  font-size: 15px;
+  color: #ffffff;
+}
+.rooms {
+  display: block;
+  justify-content: center;
+  text-align: center;
+  margin: 3em auto;
+}
+img {
+  max-width: 100%;
+  max-height: 100%;
+}
+.room1 {
+  margin: auto 6em;
+  border-bottom: 2px solid #ffffff;
+}
+.room2 {
+  margin: auto 6em;
+  border-bottom: 2px solid #ffffff;
+  margin-top: 1.5em;
+}
+.room3 {
+  margin: auto 6em;
+  border-bottom: 2px solid #ffffff;
+  margin-top: 1.5em;
 }
