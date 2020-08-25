@@ -12,7 +12,7 @@ body {
   height: 300px;
   overflow: hidden;
   background-size: cover;
-  background: url(bungalow.jpg) no-repeat center;
+  background: url(pexels-vincent-gerbouin-1174732.jpg) fixed no-repeat 50% 65%;
   text-align: center;
 }
 .top-content {
@@ -95,4 +95,29 @@ img {
   margin: auto 6em;
   border-bottom: 2px solid #ffffff;
   margin-top: 1.5em;
+}
+.blockquote {
+  margin: 1em 3em;
+  padding: 2em;
+  max-width: 600px;
+  box-sizing: border-box;
+}
+.blockquote-text {
+  font-size: 1.7em;
+  line-height: 1.3;
+  margin: 0%;
+  text-align: justify;
+  font-weight: lighter;
+}
+.blockquote-credit {
+  font-weight: bold;
+  text-align: left;
+  margin-top: 0.4em;
+}
+.last-img {
+  margin: 8em;
+}
+.footer {
+  display: block;
+  background-color: #a7cfdd;
 }
