@@ -9,22 +9,22 @@ body {
 }
 .top {
   position: relative;
-  height: 300px;
+  height: 400px;
   overflow: hidden;
   background-size: cover;
-  background: url(pexels-vincent-gerbouin-1174732.jpg) fixed no-repeat 50% 65%;
+  background: url(pexels-vincent-gerbouin-1174732.jpg) fixed no-repeat 60% 65%;
   text-align: center;
 }
 .top-content {
   padding: 1em;
-  max-width: 1200px;
+  max-width: 600px;
   margin: 0 auto;
 }
 header {
   display: block;
 }
 h3 {
-  font-weight: bold;
+  font-weight: 700;
 }
 a {
   color: white;
@@ -43,15 +43,16 @@ ul {
   color: white;
 }
 span {
-  font-weight: bold;
+  font-weight: 700;
 }
 .buttons {
   display: flex;
   justify-content: space-between;
-  margin: auto 7em;
+  margin: auto;
+  max-width: 320px;
 }
 button {
-  padding: 0.6em 1.5em;
+  padding: 0.8em 1.7em;
   font-size: 0.9em;
   border-radius: 15%;
   border: none;
@@ -62,14 +63,17 @@ button {
 }
 button:hover {
   background-color: #59c3c8;
+  border: 2px solid #3184aa;
 }
 .name {
   color: white;
+  padding: 1em;
+  font-size: 1.5em;
 }
 .nav {
   position: absolute;
   list-style-type: none;
-  font-size: 15px;
+  font-size: 1.5em;
   color: #ffffff;
 }
 .rooms {
@@ -85,16 +89,23 @@ img {
 .room1 {
   margin: auto 6em;
   border-bottom: 2px solid #ffffff;
+  max-width: 200px;
 }
 .room2 {
   margin: auto 6em;
   border-bottom: 2px solid #ffffff;
   margin-top: 1.5em;
+  max-width: 200px;
 }
 .room3 {
   margin: auto 6em;
   border-bottom: 2px solid #ffffff;
   margin-top: 1.5em;
+  max-width: 200px;
+}
+.quote {
+  display: block;
+  justify-content: center;
 }
 .blockquote {
   margin: 1em 3em;
@@ -108,16 +119,46 @@ img {
   margin: 0%;
   text-align: justify;
   font-weight: lighter;
+  text-decoration: underline;
 }
 .blockquote-credit {
   font-weight: bold;
   text-align: left;
   margin-top: 0.4em;
+  text-decoration: none;
 }
-.last-img {
-  margin: 8em;
-}
-.footer {
+footer {
   display: block;
   background-color: #a7cfdd;
+  justify-content: center;
+}
+.footer-logo {
+  text-align: center;
+  font-weight: 700;
+  font-size: 1.5em;
+  padding: 0.5em;
+}
+.footer-nav a {
+  color: black;
+}
+.kingnaldo {
+  text-align: center;
+  padding: 1em;
+}
+@media (min-width: 800px) {
+  .quote {
+    display: flex;
+    justify-content: space-between;
+  }
+  .header {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+  }
+  .rooms {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: auto 3em;
+  }
 }
